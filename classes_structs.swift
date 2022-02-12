@@ -11,6 +11,14 @@ class Person {
     var strct = PersonOne();
 }
 
-let x = Person();
+let test = Person();
 
-print("teste", x.name, x.strct.name);
+print("teste", test.name, test.strct.name);
+
+// Extends || Herance;
+class PersonTwo: Person{};
+
+let test1 = PersonTwo()
+
+print(test1.name) // output - Moisés
+
