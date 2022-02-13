@@ -50,10 +50,20 @@ k.remove(at: 0)
 
 print(k)
 
-
 // Resenha
 
 k.forEach {
     z in print(z)
 }
+
+var arrTup = [(a:"A","B","C"), (1,2,3), (22.3,45.54)]
+
+print(arrTup[0(0)])
+
+var (a) = arrTup;
+
+print(a)
+
+
+
 
