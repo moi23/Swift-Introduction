@@ -39,8 +39,8 @@ let camera = (x:10, y:20, z:1);
 // tem que ser assim para herdar 
 // let (x,_,z) = camera;
 
-// print(x)
-// print(z)
+// print(x) // expected ouput is - 10
+// print(z) // expected output is - 1
 
 // OBS 2 -  O Nome que tu atribui ao desestruct não quer dizer nada o que realmente vai valer quando estamos desestruturando é a posição da casa, referente a posição da tupla veja o exemplo abaixo
 
