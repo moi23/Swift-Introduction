@@ -22,7 +22,27 @@ let camera = (x:10, y:20, z:1);
 // Desesctruct em Tuplas
 // ex:
 
-let (x, y, z) = camera;
-print(x) // expected output is - 10;
-print(y) // expected output is - 20;
-print(z) // expected output is - 1;
+// let (x, y) = camera;
+// print(x) // expected output is - 10;
+// print(y) // expected output is - 20;
+// print(z) // expected output is - 1;
+
+// Obs.. desestruct in tuplas não funcionam 100% como no javascript você tem que pegar todos as casas da sua tupla se não dará erro.
+
+// Ex
+
+// let (x, y) = camera;
+// print(x) // expected output is - 10;
+// print(y) // expected output is - 20;
+// print(z) // expected output ERROR
+
+// tem que ser assim para herdar 
+// let (x,_,z) = camera;
+
+// print(x)
+// print(z)
+
+// OBS 2 -  O Nome que tu atribui ao desestruct não quer dizer nada o que realmente vai valer quando estamos desestruturando é a posição da casa, referente a posição da tupla veja o exemplo abaixo
+
+let (z,zz,zzz) = camera;
+print(z)
