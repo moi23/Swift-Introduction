@@ -56,13 +56,19 @@ k.forEach {
     z in print(z)
 }
 
-var arrTup = [(a:"A","B","C"), (1,2,3), (22.3,45.54)]
 
-print(arrTup[0(0)])
+// ------------------------
 
-var (a) = arrTup;
+// Slicer
 
-print(a)
+var arr1 = [1,2,3,4,5,6,7,8,9];
+
+print(arr1[0...4]) // expected output [1,2,3,4,5]
+
+
+// var arrey = [1...100]
+// print(arrey[50])
+
 
 
 
