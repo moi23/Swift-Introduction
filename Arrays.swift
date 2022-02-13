@@ -26,3 +26,17 @@ userNamess.append("Belle")
 
 print(userNamess) // expected output is ["Moisés", "Anabelle"]
 
+// ----------------------------------------
+
+// Incrementando ou fazendo a união de dois arrays em um só
+
+var userNamesss:[String] = ["Moisés","Anabelle"]
+var outroArray:[String] = ["Francheska"]
+
+userNamesss += outroArray;
+
+print(userNamesss) // expected output is ["Moisés", "Anabelle", "Francheska"]
+]
+
+
+
