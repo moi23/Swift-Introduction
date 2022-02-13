@@ -70,6 +70,14 @@ print(arr1[0...4]) // expected output [1,2,3,4,5]
 // print(arrey[50])
 
 
+// ------------------------
 
+// remover todos os elementos de um array
+
+var arr2 = [1,2,3,4,5];
+
+arr2.removeAll()
+
+print(arr2) // expected output -> []
 
 
