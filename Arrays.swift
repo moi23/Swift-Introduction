@@ -33,10 +33,22 @@ print(userNamess) // expected output is ["Moisés", "Anabelle"]
 var userNamesss:[String] = ["Moisés","Anabelle"]
 var outroArray:[String] = ["Francheska"]
 
-userNamesss += outroArray;
+userNamesss += outroArray; // += concatena
 
 print(userNamesss) // expected output is ["Moisés", "Anabelle", "Francheska"]
 
 
+// Remover indice de um array
 
+var k = [1,2,3,4,5];
+k.remove(at: 0)
+
+print(k)
+
+
+// Resenha
+
+k.forEach {
+    z in print(z)
+}
 
