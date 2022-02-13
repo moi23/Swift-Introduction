@@ -37,6 +37,11 @@ userNamesss += outroArray; // += concatena
 
 print(userNamesss) // expected output is ["Moisés", "Anabelle", "Francheska"]
 
+userNamesss += ["A","b"]
+print(userNamesss) // expected output is ["Moisés", "Anabelle", "Francheska", "A", "B"]
+
+
+
 
 // Remover indice de um array
 
